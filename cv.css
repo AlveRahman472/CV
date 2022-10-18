@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: white;
+    font-family: arial;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+.profile-img{
+
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgb(55, 16, 226);
+    border-radius: 50%;
+   float: left;
+}
+
+.bio-head{
+
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h5{
+    color: blue;
+}
+
+.header-contact{
+
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color:blue;
+}
+.header-contact a:hover{
+
+    color: red;
+    text-decoration: underline;
+}
+.clear{
+        clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+.personal_info_left{
+
+    width: 30%;
+    float: left;
+
+}
+
+.personal_info_right{
+
+        width: 70%;
+        float: right;
+
+}
+
+.a{
+    padding: 20px;
+    list-style: square;
+}
+
+.common_hr{
+
+    border: solid black 1px;
+    border-bottom: none;
+}
+
+
+.Summary_info_left{
+
+    width: 30%;
+    float: left;
+
+}
+
+.Summary_info_right{
+
+        width: 70%;
+        float: right;
+
+}
+
+
+.skill_info_left{
+
+    width: 30%;
+    float: left;
+
+}
+
+.skill_info_right{
+
+        width: 70%;
+        float: right;
+
+}
+
+
+
+.Project_info_left{
+
+    width: 30%;
+    float: left;
+
+}
+
+.project_info_right{
+
+        width: 70%;
+        float: right;
+
+}
+
+.project_info_right a:hover{
+
+    background-color: red;
+    text-decoration: underline;
+    color: white;
+}
+
+.bottom_ln{
+
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom_ln a{
+
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
